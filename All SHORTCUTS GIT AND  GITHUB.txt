@@ -1,0 +1,243 @@
+# All SHORTNOTES GIT AND  GITHUB:
+0-gitbash =terminal
+00-folder------>ctrl+right click mouse---->git bash open
+1-pwd   = present working directory
+2-git   =software
+3-github =hosting
+4-cd =change directory
+5-git status =checking status of any git
+6-git config --global user.name "Mahesh"-git ko apna name bata diya
+7-git config --global user.email "mbseducational@gmail.com"-naam git ko apna email batadiya
+8-git config --list  =list de dega-mera naam
+9-git config --global core.editor vim  =linux me editor config kar dega
+10-git config user.name  =aapka naam de dega
+11-git config user.email  =email de dega
+12-git add --a  =sari files ko stagging area me dal do
+13-git commit -m "Initial Commit"  =commit kar massage-snapshot le liya-photokhich
+14-git log =aapke saare commit aa jayenge
+15-git add first.txt  =first.txt ko commit karne ke liye stage kar diya
+16-git commit -m "changed first.txt and added better design"  =wrong but =commit
+17-git init  =reinitialize git directory=starting me
+18-git commit -m "this is modified myexcel"  =batayega change
+19-rm -rf .git  =.git previous tha usko delete kar dega
+20-git clone https://github.com/CodeWithHarry/GitTutorialDemo.git  =puri ki puri repository pull hokar aa jayegi
+21-pwd =present working directory
+22-ls  =list kar do
+23-cd tensorflow/  =change directory
+24-git add --a  =staging area main=stagging+untracked to modified
+25-git commit -m "changed first.txt"   =kya change  display
+26-touch error.log   =new error.log file generate ho gayi
+27-touch .gitignore  =new .gitignore file generate ho gayi
+28-note: .gitignore-->file me gaya--->error.log likha--->git status--->error.log gayab
+29-git add --a =sari file staging
+30-git add.   =same like        git add --a
+31-git commit -m "Added gitignore"  =photo de diya
+32-error.log   --->  change --> git status --> error.log ko ignore kar diya gaya
+33-log files ko ignore--->.gitignore--->*.log =sari .log file ignore ho chuki
+34-directory files ko ignore--->.gitignore-->dir/ =sari directory files ignore ho gayi
+35-static folder banaya-->dir>this is text doc.txt>tex.text>git status
+36-git add --a  =stagging area
+37-git commit -m "added static" =change kiya hain=massage
+38- .gitignore  --> /dir/ =bahar+andar wala dir ignore hoga
+39- .gitignore  -->static/dir  =pura ka pura static.dir ignore
+40- git add . =stagging area main  =git add --a =stagging area
+41- git diff  =working directory and stagging area ko compare
+42- git diff --staged  =pichale commit ko agli stagging area se compare
+!!-note:skip staging ara-tracked files-direct commit
+43-git commit -a -m "Direct commit"  =sari tracked file ko staged karke unka ek commit + untracked nahi jayegi commit 
+44- git add second.txt =staging area main
+45-git commit -a -m "added second" =directly second commit main chali jayegi 
+46-git log =all commit changes and authors name,email
+47- q  =page exit
+48- git add.  =stagging area main
+49-git commit -m "rename second to third" =rename+change
+50-git rm third. txt    =remove the third.txt
+51-git commit -m "removed bad file third.txt"   =commit changed kya kiya+display massage
+52-git mv first.txt first_renamed.txt   =move and then rename file
+53-git commit -m "renamed"   =kya change kiya show--->massage
+54- git rm --cached db.accdb   =all ready track ko untracked file db.accdb
+55-git commit -m "removed db.accdb"  =commit show kya change massage 
+56-rm -rf .git  =delete previous repository
+57-git clone https://github.com/pandas-dev/pandas.git mypanda  =pull the repo
+58-git log -p  =diff=difference  kya cheez remove 
+59-git log -p -3  =3 commit +difference
+60-git log --stat  =all commit
+61-git log --pretty=one line   =all commit comes
+62-git log --pretty=short  =short main commit
+63-q  =exit
+64-git log --pretty=full  =commit thoda aur jyada=author-janmdata+commiter
+65-git log --since=2.days  =pichle 2 days
+66-git log --since=2.weeks =pichle 2 weeks
+67-git log --since=2.months =pichle 2 months
+68-git log --since=2.years  =pichle 2 years
+69-git log --pretty=format:"%h -- %ae"  =author emails
+70-git log --pretty=format:"%h -- %an"  =author name
+71-git log -p -1  = 1 change commit
+72-git commit --amend  =change karna pichle commit
+73-git add first_renamed.txt   =staging area main aa gayi
+74-git restore --staged first_renamed.txt   =unstage karna us file ko
+75-git checkout -- first_renamed.txt    =galtise delete-restored kar sakta hu=change kar diya galtise to pichli wali commit me jakar us file ko
+76-git checkout -f  =android tut+db=commit-sabkuch karke dekha run ho raha hain ki nahi aur fhir -f se wapas
+77-git add .   =
+78-git commit -m "added this.txt github"  =
+79-git push -u origin master  =
+80-git config --global alias.s status   =status ka chota st
+81-git st  =ok now you can use st instead status
+82-git config --global alias.ci commit   =commit ka chota ct
+83-git ci  =ok commit aa gaya
+84-git config --global alias.unstage 'restore --stagged --'  =unstaged ka chota
+85-git unstage this.txt  =unstaged
+86-git st  =status
+87-git config --global alias.last 'log -p -1'   =chota kiya last commit
+88-git last =last wala commit aa gaya
+89-git restore this.txt  =khatarnaak=sare changes ko discard
+90-git checkout -b develop   =switch new branch develop=branching-master+develop
+91-directory+ garbage+ template+ important files+static
+92-git add.   =staged
+93-git commit -m "beautified structure"   =commit massage  =db wali files aa gayi
+94-rm -rf .git  =git  repo nahi rahi
+95-git status + git init + git add. + git commit -m "changed first renamed"
+96-git commit -a -m "Changed"
+97-git checkout -b develop
+98-git checkout master
+99-git checkout develop
+100-git branch
+101-rm -rf .git   =hidden .git project ko delete kar deta hain
+102-merging and branching production grade project
+103-my websie project+git bash-best-linux based commands chala sakta+html+bootsrap-copy-nav bar-static website
+104-git status + git add.  + git commit -m "initial commit" 
+105-git checkout -b trycleanup   =master branch to trycleanup  =bade website main kuch changes =pitchese
+106-boss-website kaisi chal raahi hain-changes-git add. + git commit -m "broken features"
+107-git checkout master + git add . + git commit -m "added about" + git checkout trycleanup + git status + git add .
+108-git commit -m "fixed the structure"  + git checkout master
+109-boss maine kuch change kiya hain 
+110-git branch + git checkout trycleanup +git commit -a -m "made changes dropdown" +git checkout master +git status
+111-git merge trycleanup  =merge the my branch to master
+112-git add . + git commit + escape+wq
+113-merge conflict-   git add index.html   +  git commit
+114-c0 to c8  c2,c6,c8 change
+115-git add .    + git commit -m "added index.html title 1"
+116-git commit -m "added index.html title 1"
+117-git add .
+118-git commit -m added index.html title 2"
+119-git checkout -b issue1
+121-git commit -a -m "this is c5"
+122-git commit -a -m "this is c7"
+123-git checkout master
+124-git commit -a -m "this is c6"
+125-git merge issue1
+126-git add index.html
+127-git commit -m "merged issue 1"
+128-git log
+129-git branch
+130-git checkout -b issue2
+131-git add .
+132-git commit -m "did some gadbad"
+133-git checkout master
+134-git branch      =   issue1  issue2  master  
+135-git branch -v   = branch and commit
+136-git branch --merged  =issue1
+137-git branch --no-merged =issue2
+138-git branch -d issue1  =deleted branch
+139-git branch -D issue2 =deleted unmerged branch
+140-long running branches + long running branches
+141-git branch  =master
+142-git checkout -b bugfix     =switch new branch
+143-git add .
+144-git commit -m "fixed the bug"  =manager check bug
+145-git checkout master
+146-git branch
+147-git checkout bugfix
+148-git remote -v
+https://github.com/mbscodetech/DemoRepository.git(fetch)
+https://github.com/mbscodetech/DemoRepository.git(push)
+149-git push -u origin master
+150-git checkout bugfix
+151-git push origin bugfix
+152-git push origin bugfix:mybugfix
+153-git branch
+154-git checkout master
+155-git branch -d bugfix
+156-git merge bugfix
+157-git branch -d bugfix
+158-git branch
+159-git push origin master
+160-git push -d origin bugfix  =bugfix deleted
+161-git push -d origin mybugfix =delete mybugfix
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
